@@ -1,6 +1,5 @@
 {
     "name": "ncut/lara_0804_p",
-    "description": "nesbot/carbon",
     "autoload": {
         "psr-4": {
             "Ncut\\Lara0804P\\": "src/"
@@ -12,5 +11,7 @@
             "email": "3a732031@gm.student.ncut.edu.tw"
         }
     ],
-    "require": {}
+    "require": {
+        "nesbot/carbon": "^2.53.1"
+    }
 }
