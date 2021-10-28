@@ -2,6 +2,7 @@
 
 require __DIR__.'/bootstrap.php';
 require __DIR__.'/vendor/autoload.php';//新家入110/10/19瀏覽器能看到資料庫內容
+require __DIR__.'/public/index.php';
 
 // connect to dabase
 try {
@@ -11,6 +12,7 @@ try {
     echo  "Error: ".$e->getMessage()."＜br/＞";
     die();
 }
+
 
 ?>
 <!DOCTYPE html>
